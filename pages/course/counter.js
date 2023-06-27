@@ -7,13 +7,13 @@ export default function Counter() {
     <>
       <h1>counter</h1>
       <hr />
-      <h1
+      <button
         onClick={() => {
           setCount(count + 1)
         }}
       >
         {count}
-      </h1>
+      </button>
     </>
   )
 }
